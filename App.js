@@ -18,6 +18,8 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 });
 
+const thumbImage = 'https://cdn0.iconfinder.com/data/icons/typicons-2/24/contacts-512.png';
+
 type Props = {};
 export default class App extends Component<Props> {  
   
@@ -39,6 +41,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
+  },
+  imageStyle: {
+    width: 100,
+    height: 100
   },
   welcome: {
     fontSize: 20,
