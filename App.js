@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, FlatList} from 'react-native';
+import {Platform, StyleSheet, Text, View} from 'react-native';
 
 import users from './data.json';
 
@@ -20,6 +20,7 @@ const instructions = Platform.select({
 
 type Props = {};
 export default class App extends Component<Props> {  
+  
   render() {
     return (
       <View style={styles.container}>
